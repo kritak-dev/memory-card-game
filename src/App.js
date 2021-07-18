@@ -1,8 +1,13 @@
 import CardContainer from './components/gameboard/CardContainer'
+import Header from './components/header/Header';
+import './styles/global.css';
 
 function App() {
   return (
-    <CardContainer />
+    <div>
+      <Header />
+      <CardContainer />
+    </div>
   )
 }
 

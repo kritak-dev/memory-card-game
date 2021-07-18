@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #47612f;
+}
+
+.card {
+    height: 320px;
+    width: 300px;
+    overflow: hidden;
+    background-color: #8ab661;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: Galada;
+    margin: 20px auto;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 40px black;
+}
+
+.card img {
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.header {
+    height: 100px;
+    padding: 10px;
+    background-image: linear-gradient(#000, #47612f);
+    color: #e6c36c;
+    font-family: 'Dancing Script';
+}
+
+.scorecard {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}

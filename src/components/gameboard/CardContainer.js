@@ -1,6 +1,5 @@
 import React from  'react';
 import ImageCard from './ImageCard';
-import '../../styles/CardContainer.css';
 
 function CardContainer(props) {
 
