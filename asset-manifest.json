@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.1eb2435e.chunk.css",
+    "main.js": "/memory-card-game/static/js/main.c25d468f.chunk.js",
+    "main.js.map": "/memory-card-game/static/js/main.c25d468f.chunk.js.map",
+    "runtime-main.js": "/memory-card-game/static/js/runtime-main.daf81cc3.js",
+    "runtime-main.js.map": "/memory-card-game/static/js/runtime-main.daf81cc3.js.map",
+    "static/js/2.f4ef646a.chunk.js": "/memory-card-game/static/js/2.f4ef646a.chunk.js",
+    "static/js/2.f4ef646a.chunk.js.map": "/memory-card-game/static/js/2.f4ef646a.chunk.js.map",
+    "index.html": "/memory-card-game/index.html",
+    "static/css/main.1eb2435e.chunk.css.map": "/memory-card-game/static/css/main.1eb2435e.chunk.css.map",
+    "static/js/2.f4ef646a.chunk.js.LICENSE.txt": "/memory-card-game/static/js/2.f4ef646a.chunk.js.LICENSE.txt",
+    "static/media/Bertram.jpeg": "/memory-card-game/static/media/Bertram.b221b863.jpeg",
+    "static/media/Brian.png": "/memory-card-game/static/media/Brian.e71daa69.png",
+    "static/media/Chris.png": "/memory-card-game/static/media/Chris.bf20920c.png",
+    "static/media/Cleveland.png": "/memory-card-game/static/media/Cleveland.34cc8c19.png",
+    "static/media/Glenn.png": "/memory-card-game/static/media/Glenn.c1c54cb4.png",
+    "static/media/Joe.jpeg": "/memory-card-game/static/media/Joe.22f3d541.jpeg",
+    "static/media/Lois.png": "/memory-card-game/static/media/Lois.4fcc3e15.png",
+    "static/media/Meg.png": "/memory-card-game/static/media/Meg.0d07ece2.png",
+    "static/media/Peter.png": "/memory-card-game/static/media/Peter.852d0db6.png",
+    "static/media/Stewie.png": "/memory-card-game/static/media/Stewie.4a2d9b13.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daf81cc3.js",
+    "static/js/2.f4ef646a.chunk.js",
+    "static/css/main.1eb2435e.chunk.css",
+    "static/js/main.c25d468f.chunk.js"
+  ]
+}
