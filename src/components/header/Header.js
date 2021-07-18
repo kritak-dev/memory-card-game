@@ -1,6 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 function Header(props) {
+    const { clickedImages } = props;
+    const [score, setScore] = useState(0);
+    const [highScore, setHighScore] = useState(0);
+
+    useEffect(() => {
+        setScore(clickedImages.length);
+        setHighScore(highScore => {
+            if (score > highScore)
+                return score;
+            else return highScore;
+        });
+    }, [clickedImages, score]);
+
     return(
         <div className="header">
             <header>
@@ -8,8 +21,8 @@ function Header(props) {
                 <p className="fs-30">Get points for clicking on an image but don't click on any image more than once.</p>
             </header>
             <div className="scorecard">
-                <span>Score: 0</span>
-                <span>High Score: 0</span>
+                <span>Score: {score}</span>
+                <span>High Score: {highScore}</span>
             </div>
         </div>
     )
