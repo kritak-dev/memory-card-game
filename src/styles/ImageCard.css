@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.img-size {
+    max-width: 280px;
+    max-height: 280px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.container {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background-color: #9cb918;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 40px black;
+}
